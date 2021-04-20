@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # In[1]:
 
 
@@ -125,19 +122,6 @@ plt.ylabel('')
 plt.title('Hashtags in hatred tweets', size=13)
 plt.show()
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
 # In[8]:
 
 
@@ -197,8 +181,6 @@ print("\nF1 test score for SVC: {:.2f}".format(f1_score(y_test, predictions)))
 from sklearn import metrics
 print(metrics.classification_report(y_test,predictions))
 
-
-# In[ ]:
 
 
 
